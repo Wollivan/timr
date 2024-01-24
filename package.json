@@ -1,6 +1,6 @@
 {
   "name": "@wollivan/timr",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A timer in your terminal",
   "main": "script.js",
   "scripts": {
@@ -8,6 +8,10 @@
     "start": "node script",
     "timr": "node script"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wollivan/timr.git"
+},
   "bin": "script.js",
   "keywords": [],
   "author": "",
