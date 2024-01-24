@@ -53,8 +53,8 @@ const four3 = `  d8P 888  `
 const four4 = ` d8P  888  `
 const four5 = `d88   888  `
 const four6 = `8888888888 `
-const four7 = `   888     `
-const four8 = `   888     `
+const four7 = `      888  `
+const four8 = `      888  `
 
 
 const five1 = `888888888  `
