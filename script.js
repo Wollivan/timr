@@ -9,7 +9,7 @@ if (process.argv[2]) {
 setInterval(() => {
   const minutesLeft = Math.floor(time / 60);
   const secondsLeft = time % 60 < 10 ? `0${time % 60}` : time % 60;
-  // console.clear();
+  console.clear();
   console.log(`${minutesLeft}:${secondsLeft}`);
   time--;
 }, 1000);
