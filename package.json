@@ -1,6 +1,6 @@
 {
   "name": "@wollivan/timr",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "A timer in your terminal",
   "main": "script.js",
   "scripts": {
