@@ -15,3 +15,7 @@ A simple timer you can run in the terminal.
 Add an argument:
 
 `timr 4` will start a timer of 4 minutes
+
+## Dependancies
+
+This packages uses `sound-play` to play the Countdown theme when there is 30 seconds left.
