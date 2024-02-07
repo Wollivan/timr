@@ -10,9 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wollivan/timr.git"
+    "url": "git+https://github.com/wollivan/timr.git"
   },
-  "bin": "script.js",
+  "bin": {
+    "timr": "script.js"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
