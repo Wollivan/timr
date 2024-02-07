@@ -11,10 +11,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/wollivan/timr.git"
-},
+  },
   "bin": "script.js",
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "sound-play": "^1.1.0"
+  }
 }
