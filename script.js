@@ -2,6 +2,15 @@
 
 // play countdown music for last 30 seconds
 import sound from "sound-play";
+import path from "path";
+import fs from "fs";
+import { exec } from "child_process";
+
+// Get the directory path of the current script
+const moduleDir = new URL(".", import.meta.url).pathname;
+
+// Define the path to the mp3 file relative to the module directory
+const mp3FilePath = path.join(moduleDir, "countdown.mp3");
 
 // default of 10 minutes
 let time = 600;
@@ -176,7 +185,7 @@ const timeInterval = setInterval(() => {
   }
   time--;
   if (secondsLeft === 30 && minutesLeft === 0) {
-    sound.play("./countdown.mp3", function (err) {
+    sound.play(mp3FilePath, function (err) {
       console.log("woops sound didn't work");
     });
   }
