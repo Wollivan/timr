@@ -176,6 +176,8 @@ const timeInterval = setInterval(() => {
   }
   time--;
   if (secondsLeft === 30 && minutesLeft === 0) {
-    sound.play("countdown.mp3");
+    sound.play("./countdown.mp3", function (err) {
+      console.log("woops sound didn't work");
+    });
   }
 }, 1000);
